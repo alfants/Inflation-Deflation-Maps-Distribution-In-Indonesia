@@ -4,3 +4,5 @@ So, at that time I helped to create a map of the distribution of inflation/defla
 
 So, for the excel data I do not publish it here because it is confidential.
 
+Here is the dashboard view
+![Screenshot 2024-12-19 135313](https://github.com/user-attachments/assets/a380ff96-5013-41fb-a157-38d11545c97e)
