@@ -106,7 +106,7 @@ filtered_data = data[data["Nama"] == komoditas_to_display]
 
 
 # ----- Buat Peta -----
-m = folium.Map(location=[-3.5489, 120.0149], tiles="CartoDB.Voyager", zoom_start=5)
+m = folium.Map(location=[-3.5489, 120.0149], tiles="OpenStreetMap", zoom_start=5)
 
 # ----- Plot Marker Berdasarkan Inflasi/Deflasi -----
 for _, row in filtered_data.iterrows():
