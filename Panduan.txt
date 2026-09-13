@@ -5,7 +5,7 @@
 
 2. Buka Text Editor dengan click kanan pada space kosong ===> Open with Code
 
-3. Ubah nama file Data Excel menjadi "sebaran data.xlsx" atau sesuaikan pada file preprocess.ipynb:
+3. Ubah nama file Data Excel menjadi "sebaran data.xlsx" atau sesuaikan pada file web_joindata.ipynb:
 	- cell PROCESS ===> Load Data Excel ===> ubah nama file sesuaikan dengan nama file excel
 
 4. Pastikan file excel memiliki kolom kode kota dengan nama kolom "Kd.Kota"
@@ -50,10 +50,7 @@
 
 3. Link Tutorial Instalasi VSCode dan Python: https://youtu.be/xETkm9H6aaY?list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1
 
-4. Instalasi Package di Terminal:
-	- pip install pandas
-	- pip install folium
-	- pip install streamlit
+4. Instalasi Package di Terminal: pip install -r requirements.txt
 
 
 
