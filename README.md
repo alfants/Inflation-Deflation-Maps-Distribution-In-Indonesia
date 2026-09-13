@@ -18,4 +18,4 @@ Proyek ini dikerjakan selama masa magang di **BPS Kota Yogyakarta**.
    `streamlit run web.py`
 
 ## 📸 Dashboard Preview
-![Dashboard Preview](image.png)
+![Dashboard Preview](assets/image.png)
