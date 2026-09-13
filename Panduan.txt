@@ -1,0 +1,76 @@
+
+ # ========== PERSIAPAN DATA ========== #
+
+1. Semua file(excel, json, ipynb, py) berada satu direktori di folder "peta_persebaran_inflasi"
+
+2. Buka Text Editor dengan click kanan pada space kosong ===> Open with Code
+
+3. Ubah nama file Data Excel menjadi "sebaran data.xlsx" atau sesuaikan pada file preprocess.ipynb:
+	- cell PROCESS ===> Load Data Excel ===> ubah nama file sesuaikan dengan nama file excel
+
+4. Pastikan file excel memiliki kolom kode kota dengan nama kolom "Kd.Kota"
+
+5. Jalankan file preprocess.ipynb dengan click tombol Run All diatas kernel
+
+6. Jika sudah, pastikan terdapat file baru bernama "clear_data.xlsx" pada sidebar Text editor
+
+7. Pastikan juga pada cell "MISSING VALUE" semua value menunjukkan angka 0 atau tidak ada data yang kosong (*bisa diabaikan jika tidak ada penambahan kota/kabupaten baru)
+
+
+
+
+
+ # ========== BUKA SERVER WEBSITE ========== #
+
+1. Buka file app.py
+
+2. Buat terminal baru, click terminal pada bar atas Text Editor ===> Terminal ===> New Terminal (Shortcut 'Ctrl' + 'Shift' + '`')
+
+3. Pada terminal ketikkan perintah "streamlit run app.py" lalu Enter, maka maps dahsboard akan otomatis terbuka pada tab baru browser
+
+
+
+
+
+
+
+
+
+
+ ------- TAMBAHAN -------
+
+1. Menambah shortcut button komoditas pada sidebar:
+	- pada "app.py" ===> tambahkan didalam variabel "commodity_labels" dengan format = "(nama komoditas)": "(label button)",
+
+
+2. Mengatasi MISSING VALUE, jika terdapat nilai yang tidak 0 pada kolom 'id', 'province_id', 'name alt_name', 'latitude', 'longitude'
+   kemungkinan terdapat kode kota/kabupaten yang berbeda antara file Excel dan file JSON
+	Solusi: ubah kode kota pada file JSON bagian "id" sesuaikan dengan kode kota pada file Excel, jika tidak ada data kotanya bisa dibuat data kota baru dan disesuaikan
+
+
+3. Link Tutorial Instalasi VSCode dan Python: https://youtu.be/xETkm9H6aaY?list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1
+
+4. Instalasi Package di Terminal:
+	- pip install pandas
+	- pip install folium
+	- pip install streamlit
+
+
+
+
+
+
+
+
+
+
+                                                        ___________  _____       _   __      _                ___              _       
+                                                       / ___ \ ___ \/  ___|     | | / /     | |              |_  |            (_)      
+                                                       | |_/ / |_/ /\ `--.      | |/ /  ___ | |_ __ _          | | ___   __ _  _  __ _ 
+                                                       | ___ \  __/  `--. \     |    \ / _ \| __/ _` |         | |/ _ \ / _` || |/ _` |
+                                                       | |_/ / |    /\__/ /     | |\  \ (_) | || (_| |     /\__/ / (_) | (_| || | (_| |
+                                                       |____/\_|    \____/      \_| \_/\___/ \__\__,_|     \____/ \___/ \__, || |\__,_|
+                                                                                                                         __/ |/ |      
+                                                                                                                        |___/__/       
+
+

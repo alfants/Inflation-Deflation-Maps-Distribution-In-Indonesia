@@ -1,18 +1,17 @@
-# Abaikan folder virtual environment Python
+# folder virtual environment Python
 venv/
 env/
 
-# Abaikan cache Python
+# cache Python
 __pycache__/
 *.pyc
 
-# Abaikan data rahasia/asli
+# data asli/confidential
 *.xlsx
 *.csv
-!sample_data.csv  <-- (tanda ! artinya: JANGAN abaikan file sample ini)
+!sample_data.csv
 
-# Abaikan file rahasia/sistem/helper lokal
+# file sistem/helper lokal
 .env
 .DS_Store
 *.bat
-*Panduan.txt
