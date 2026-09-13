@@ -9,9 +9,10 @@ __pycache__/
 # data asli/confidential
 *.xlsx
 *.csv
-!sample_data.csv
+!sample_data.xlsx
 
 # file sistem/helper lokal
 .env
 .DS_Store
 *.bat
+*Panduan.txt

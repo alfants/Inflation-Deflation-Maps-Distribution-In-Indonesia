@@ -8,7 +8,7 @@ from folium import CircleMarker
 
 st.set_page_config(
     page_title="BPS Kota Yogyakarta",
-    page_icon="logo/Logo BPS.png",
+    page_icon="assets/Logo BPS.png",
     layout="wide"
 )
 
@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # Load data dari file Excel
-    return pd.read_excel("clear_data.xlsx")
+    return pd.read_excel("data_hasil.xlsx")
 
 data = load_data()
 
