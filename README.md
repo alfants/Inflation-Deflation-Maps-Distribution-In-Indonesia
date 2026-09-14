@@ -5,7 +5,7 @@ Proyek ini dikerjakan selama masa magang di **BPS Kota Yogyakarta**.
 
 ## 🛠️ Tech Stack
 *   **Bahasa:** Python
-*   **Framework/Library:** Streamlit, Pandas, [sebutkan library mapping misal: Folium/Plotly]
+*   **Framework/Library:** Streamlit, Pandas, Folium
 
 ## 🚀 Cara Menjalankan Secara Lokal
 1. Clone repository ini:
